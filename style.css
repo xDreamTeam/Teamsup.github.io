@@ -1,0 +1,51 @@
+body {
+    background-color: #192841; /* Fond bleu marine foncé */
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#file-input {
+    display: block;
+    margin: 20px auto;
+}
+
+#upload-button {
+    background-color: #1e6ab2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#upload-button:hover {
+    background-color: #155688; /* Animation au survol */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #1e6ab2; /* Animation au survol */
+    color: #fff;
+}
